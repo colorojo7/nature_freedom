@@ -40,7 +40,7 @@ const SectionHero = () => {
       <div className="h-full bg-cover bg-top md:bg-[length:100%_100%]" style={backgroundStyle}>
         {/* Contenido de la Hero */}
         <div className="flex flex-col items-center justify-between h-full text-center text-white p-4 pt-20 md:pt-10 md:pb-14">
-          <div className="basis-7/12 md:basis-6/12 flex flex-col items-center justify-around">
+          <div className="h-3/6 basis-7/12 md:basis-6/12 flex flex-col items-center justify-around">
             <img
                 src="/images/logo/familyTreeLogo.png"
                 className="md:max-h-32 max-h-48  block object-fill"
